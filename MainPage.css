@@ -1,0 +1,602 @@
+
+
+body {
+    overflow-x: hidden; /* hides horizontal scroll */
+}
+
+
+.Placeholder{
+    background-color: rgb(17, 17, 17);
+    margin-left: -1vw;
+    margin-top: -1vw;
+    width: 100.55vw;
+    height: 5vw;
+    position: absolute;
+}
+#HeaderTitle{
+    color: white;
+    position: absolute;
+    margin-left: 1.5vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+
+.TopRightPlaceHolder{
+    background: transparent  ;
+    width: 21vw;;
+    height: 3vw;
+    margin-top: 0vw;
+    margin-left: 79vw;
+    position: absolute;
+
+}
+
+button{
+    height: 2vw;
+    width: 10vw;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+
+
+
+#Facebook{
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    height: 3vw;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#Instagram{
+    margin-left: 10.5vw;
+    margin-top: 1vw;
+
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+}
+
+#Facebook_Button_Picture{
+    height: 3vw;
+    width: 3vw;
+    margin-left: -2vw;
+    margin-top: -0.1vw;    
+
+}
+
+#Instagram_Button_Picture{
+    height: 3vw;
+    width: 3vw;
+    margin-left: -2vw;
+    margin-top: -0.1vw;    
+
+}
+
+#Instagram_Text{
+color: white;
+font-weight: bold;
+font-size: 1vw;
+}
+
+#Facebook_Text{
+color: white;
+font-weight: bold;
+font-size: 1vw;
+
+}
+
+#MyPicture{
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 100vw;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    left: 45%;
+    margin-top: 2vw;
+}
+
+
+.Introduction_PlaceHolder{
+    background-color: white;
+    width: 100.55vw;
+    height: 30vw;
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: -1vw;
+
+}
+
+#Introduction_Text{
+    font-size: 2vw;
+    margin-left: 44%;
+    margin-top: 13vw;
+    position: absolute;
+    color: rgb(54, 54, 54);
+
+}
+
+#Introduction_Paragraph{
+    font-size: 1vw;
+    margin-left: 36%;
+    margin-top: 15vw;
+    position: absolute;
+    color: rgb(54, 54, 54);
+}
+
+#Shortcut_PlaceHolder{
+    background-color: rgb(0, 110, 255);
+    width: 100.55vw;
+    height: 10vw;
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: -1vw;
+}
+
+#Explore_Text{
+    color: white;
+    font-weight: lighter;
+    font-size: 3vw;
+    position: absolute;
+    margin-left: 37vw;
+    margin-top: 1vw;
+
+}
+
+#Coding_Button{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33vw;
+    margin-top: 5vw;
+    
+
+
+}
+
+#Coding_Button:hover{
+    background-color: rgba(22, 17, 17, 0.5);
+}
+
+#Coding_Image{
+    height: 3vw;
+    width: 3vw;
+    position: absolute;
+    margin-left: -6.5vw;
+  
+}
+
+#Coding_Text{
+    color: rgb(0, 110, 255);
+    font-weight: bold;
+    font-size: 1vw;
+    position: absolute;
+    margin-left:1.5vw;
+}
+
+#MyWork_Button{
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+
+    margin-left: 44vw;
+    margin-top: 5vw;
+}
+
+#MyWork_Button:hover{
+    background-color: rgba(22, 17, 17, 0.5);
+}
+
+#MyWork_Image{
+    height: 2.5vw;
+    width: 2.5vw;
+    position: absolute;
+    margin-left: -8vw;
+    margin-top: -0.5;
+  
+}
+
+#MyWork_Text{
+    color: rgb(0, 110, 255);
+    font-size: 1vw;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1vw;
+}
+
+#Contacts_Button{
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+
+    margin-left: 55vw;
+    margin-top: 5vw;
+}
+
+#Contacts_Button:hover{
+    background-color: rgba(22, 17, 17, 0.5);
+
+}
+
+#Contacts_Image{
+    height: 2vw;
+    width: 2vw;
+    position: absolute;
+    margin-left: -6vw;
+  
+}
+
+#Contacts_Text{
+    color: rgb(0, 110, 255);
+    font-size: 1.3vw;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 1.5vw;
+}
+
+
+
+#Experience_PlaceHolder{
+    background-color: rgb(216, 213, 213);
+    width: 100.55vw;
+    height: 30vw;
+    position: absolute;
+    margin-top: 32vw;
+    margin-left: -1vw;
+
+}
+
+#Experience_Text_Holder{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5vw;
+    
+    width: 35vw;
+    height: 23vw;
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: 3vw;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#Experience_Text_Design{
+    background-color: rgb(0, 183, 255);
+    border: 2px;
+    border-radius: 5vw;  
+    width: 35vw;
+    height: 23.5vw;
+    position: absolute;
+    margin-left: 31.5vw;
+    margin-top: 2.6vw;
+
+
+
+}
+
+#Header_Experience{
+    font-size: 3vw;
+    position: absolute;
+    margin-left: 7vw;
+    color: rgb(0, 183, 255);
+
+
+
+}
+
+strong{
+    color: rgb(0, 183, 255);
+}
+
+#FirstText{
+    color: #333;
+    font-size: 1vw;
+    margin-top: 4vw;
+    position: absolute;
+}
+
+#SecondText{
+    color: #333;
+    font-size: 1vw;
+    margin-top: 8vw;
+    position: absolute;
+}
+
+#ThirdText{
+    color: #333;
+    font-size: 1vw;
+    margin-top: 12vw;
+    position: absolute;
+}
+
+#Works_Placeholder{
+
+    background-color: rgb(231, 231, 231);
+    width: 100.55vw;
+    height: 30vw;
+    position: absolute;
+    margin-top: 62vw;
+    margin-left: -1vw;
+    align-items: center;
+    justify-content: center;   
+}
+
+#Works_Header{
+    font-size: 3vw;
+    position: absolute;
+    margin-left: 43vw;
+
+
+}
+
+
+#FirstWork_PlaceHolder{
+     background-color: white;
+    border: 2px solid white;
+    border-radius: 2vw;
+    
+    width: 20vw;
+    height: 23vw;
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 4vw;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#FirstVideo{
+    height: 10vw;
+    width: 20vw;
+    position: absolute;
+    margin-top: 1vw;
+   
+
+}
+
+#FirstVideo_Text{
+    color: rgb(24, 23, 23);
+    position: absolute;
+    margin-top: 12vw;
+    font-size: 1vw;
+}
+
+big{
+    color: green;
+    font-weight: bold;
+}
+
+#SecondWork_Placeholder{
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2vw;
+    
+    width: 20vw;
+    height: 23vw;
+    position: absolute;
+    margin-left: 39vw;
+    margin-top: 4vw;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#SecondVideo{
+    height: 10vw;
+    width: 20vw;
+    position: absolute;
+    margin-top: 1vw;
+}
+
+#SecondVideo_Text{
+    color: rgb(24, 23, 23);
+    position: absolute;
+    margin-top: 12vw;
+    font-size: 1vw;
+}
+
+#ThirdWork_Placeholder{
+
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2vw;
+    
+    width: 20vw;
+    height: 23vw;
+    position: absolute;
+    margin-left: 62vw;
+    margin-top: 4vw;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ThirdVideo{
+    height: 10vw;
+    width: 20vw;
+    position: absolute;
+    margin-top: 1vw;
+    border: 0px;
+}
+
+#ThirdVideo_Text{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2vw;
+    
+    width: 20vw;
+    height: 23vw;
+    position: absolute;
+    margin-left: 62vw;
+    margin-top: 4vw;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ContactsPlaceholder{
+    background-color: rgb(0, 0, 0);
+    width: 100.55vw;
+    height: 10vw;
+    position: absolute;
+    margin-top: 92vw;
+    margin-left: -1vw;
+    align-items: center;
+    justify-content: center;    
+}
+
+#ContactButtonsPlaceholder{
+    position: absolute;
+    background-color: transparent;
+    height: 5vw;
+    width: 100.55vw;
+    margin-top: 2vw;
+
+}
+
+
+#Facebook_Contact{
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-left: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Facebook_Button_Picture_Contact{
+    height: 3vw;
+    width: 3vw;
+    margin-left: -2vw;
+    margin-top: -0.1vw;    
+
+}
+
+#Facebook_Text_Contact{
+color: white;
+font-weight: bold;
+font-size: 1vw;
+
+}
+
+
+#Instagram_Contact{
+    margin-top: 1vw;
+    margin-left: 36vw;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+}
+
+
+#Instagram_Button_Picture_Contact{
+    height: 3vw;
+    width: 3vw;
+    margin-left: -2vw;
+    margin-top: -0.1vw;    
+
+}
+
+#Instagram_Text_Contact{
+color: white;
+font-weight: bold;
+font-size: 1vw;
+}
+
+#Email{
+    margin-top: 1vw;
+    margin-left: 47vw;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 20vw;
+}
+
+#Email_Picture_Contact_Button{
+    height: 3vw;
+    width: 3vw;
+    margin-left: -2vw;
+    margin-top: -0.1vw;
+}
+
+#Email_Contact_Text{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;   
+}
+
+#DiscordButton{
+
+    margin-top: 1vw;
+    margin-left: 68vw;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 10vw;    
+}
+
+#DiscordPicture{
+    height: 2vw;
+    width: 2vw;
+    margin-left: -1vw;
+    margin-top: -0.1vw;    
+}
+
+#Discord{
+    color: white;
+    font-weight: bold;
+    font-size: 1vw;   
+
+}
